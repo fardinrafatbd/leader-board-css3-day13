@@ -22,6 +22,50 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+        /* Menue bar */
+
+.menue-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#562EFF ;
+    width: 100%;
+    height: 94px;
+    
+}
+.idea{
+    display: flex;
+    align-items: center;
+}
+.idea-options{
+    display: flex;
+}
+.idea .idea-title{
+    color: #E5E5E5;
+    margin-left: 16px;
+}
+.fa-lightbulb{
+   font-size: 3em;
+   color: #E5E5E5;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.options a{
+    text-decoration: none;
+    color: #E5E5E5;
+    margin-left: 36px;
+    font-size: 16px;
+}
+.profile{
+    width: 51px;
+    height: 51px;
+    margin-left: 36px;
+}
+
 
  /* Top player styles */
  .top-player{
@@ -191,3 +235,4 @@ hr{
     
     
 }
+
